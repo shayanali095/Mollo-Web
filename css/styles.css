@@ -1,0 +1,1057 @@
+/* ///////////////web font ///////////////// */
+
+@font-face {
+    font-family: 'Flaming';
+    src: url('fonts/Flaming.ttf.woff') format('woff'), url('fonts/Flaming.ttf.svg#Flaming') format('svg'), url('fonts/Flaming.ttf.eot'), url('fonts/Flaming.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* ///////////////web font ///////////////// */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+
+/* //////////////////////////// */
+
+
+/*////////////////////// navbar styling ///////////// */
+
+
+/* ///////////////////////////////// */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(102, 101, 101);
+    padding: 1rem;
+}
+
+.brandImage {
+    width: 80px;
+    padding: 0 20px 0 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 0 10px 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav .search_section {
+    padding: 0 30px;
+}
+
+nav .search_section_items {
+    margin: 0 10px;
+    color: white;
+}
+
+.search_bar {
+    display: inline;
+    border-bottom: 1px solid white;
+    padding: 5px 0;
+    margin: 0 10px 0 0;
+}
+
+.input_search {
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.input_search::placeholder {
+    color: white;
+    font-size: smaller;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.input_search:focus {
+    outline: none;
+}
+
+.input_search::-webkit-search-decoration,
+.input_search::-webkit-search-cancel-button,
+.input_search::-webkit-search-results-button,
+.input_search::-webkit-search-results-decoration {
+    display: none;
+}
+
+.search_bar button {
+    background: none;
+    border: none;
+    color: white;
+}
+
+
+/* ////////////////////////// */
+
+
+/* //////////////////////// main section styling ///////////////// */
+
+
+/* /////////////////////////// */
+
+main {
+    background-color: rgb(102, 101, 101);
+    color: white;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 5rem 0 10rem 0;
+}
+
+main section p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding-top: 15px;
+}
+
+main section h1 {
+    font-family: "Flaming";
+    font-size: 100px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+main section button {
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 5px;
+    width: 7.5rem;
+    margin-top: 30px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+}
+
+
+/* //////////////////////// */
+
+
+/* /////////////////promoters Brand logo section ///////////////////////// */
+
+
+/* /////////////////////// */
+
+.promoters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.promoters .promoter_div {
+    border: 1px solid rgba(173, 173, 173, 0.2);
+    border-left: 0;
+    width: 14.3%;
+    text-align: center;
+}
+
+.promoters img {
+    height: 20px;
+    margin: 0;
+    padding: 20px 50px;
+}
+
+
+/* ////////////////////////////// */
+
+
+/* ///////////////////trending section///////////////////////////// */
+
+
+/* ///////////////////////////// */
+
+.trending .trending_top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 40px;
+}
+
+
+/* *************************Trending Card 1 Styling************************* */
+
+.trending_top_card_1 {
+    background-color: rgb(102, 101, 101);
+    height: 28rem;
+    width: 25rem;
+}
+
+.trending_top_card_1 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px;
+    height: 90%;
+    border: 4px solid rgba(173, 173, 173, 1);
+}
+
+.trending_top_card_1 div p {
+    font-size: 12px;
+    margin: 4px;
+    padding-left: 1rem;
+    font-weight: 300;
+}
+
+.trending_top_card_1 div h4 {
+    font-weight: 600;
+    padding-left: 1rem;
+    margin: 4px;
+}
+
+.trending_top_card_1 div a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    margin: 4px;
+    font-weight: 300;
+    padding-left: 1rem;
+}
+
+
+/* *************************Trending Card 2 Styling************************* */
+
+.trending_top_card_2 {
+    background-color: rgb(215, 215, 215);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 25rem;
+    height: 13.5rem;
+    margin: 0 0 16px 16px;
+}
+
+.trending_top_card_2 p {
+    font-size: 12px;
+    margin: 4px;
+    padding-left: 1rem;
+    font-weight: 400;
+    color: rgb(153, 153, 153);
+}
+
+.trending_top_card_2 h4 {
+    font-weight: 600;
+    color: rgb(51, 51, 51);
+    padding-left: 1rem;
+    margin: 4px;
+}
+
+.trending_top_card_2 a {
+    text-decoration: none;
+    color: rgb(102, 101, 101);
+    font-size: 12px;
+    margin: 4px;
+    font-weight: 400;
+    padding-left: 1rem;
+}
+
+
+/* *************************Trending Card 3 Styling************************* */
+
+.trending_top_card_3 {
+    background-color: rgb(215, 215, 215);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 25rem;
+    height: 13.5rem;
+    margin: 0 0 0 16px;
+}
+
+.trending_top_card_3 p {
+    font-size: 12px;
+    margin: 4px;
+    padding-left: 1rem;
+    font-weight: 400;
+    color: rgb(153, 153, 153);
+}
+
+.trending_top_card_3 h4 {
+    font-weight: 600;
+    color: rgb(51, 51, 51);
+    padding-left: 1rem;
+    margin: 4px;
+}
+
+.trending_top_card_3 a {
+    text-decoration: none;
+    color: rgb(102, 101, 101);
+    font-size: 12px;
+    margin: 4px;
+    font-weight: 400;
+    padding-left: 1rem;
+}
+
+
+/* ////////////////////////// */
+
+
+/* ////////////Trending bottom section//////////////////////////// */
+
+
+/* /////////////////////////// */
+
+.trending_bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.trending_bottom h1 {
+    color: rgb(51, 51, 51);
+    margin: 5px;
+}
+
+.trending_bottom ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+}
+
+.trending_bottom ul li a {
+    text-decoration: none;
+    padding-right: 30px;
+    color: rgb(173, 173, 173);
+    font-size: 12px;
+}
+
+
+/* ******************trending bottom cards styling*********************** */
+
+.trending_bottom_cards {
+    display: flex;
+    flex-direction: row;
+    padding: 30px 0;
+}
+
+.trending_bottom_cards .card_main {
+    margin: 0 8px;
+}
+
+.trending_bottom_cards .card_image {
+    background-color: rgb(215, 215, 215);
+    width: 12rem;
+    height: 17rem;
+}
+
+.trending_bottom_cards .card_title {
+    padding-top: 10px;
+    font-size: 11px;
+    color: rgb(173, 173, 173);
+}
+
+.trending_bottom_cards .card_description {
+    font-size: 12px;
+    color: rgb(102, 101, 101);
+    font-weight: 500;
+}
+
+.trending_bottom_cards .card_value {
+    font-size: 11px;
+    color: rgb(102, 101, 101);
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.trending_bottom_cards .card_optional {
+    font-size: 11px;
+    color: rgb(173, 173, 173);
+}
+
+.trending_bottom_cards button {
+    background-color: transparent;
+    border: none;
+    color: rgb(173, 173, 173);
+}
+
+
+/* ///////////////////////////// */
+
+
+/* //////////////////////////new Collection section////////////////////// */
+
+
+/* //////////////////////////// */
+
+.new_collection {
+    background-color: rgb(102, 101, 101);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0;
+}
+
+.new_collection p {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 10px;
+}
+
+.new_collection h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.new_collection h1 span {
+    font-weight: 200;
+}
+
+.new_collection button {
+    margin: 10px;
+    width: 70px;
+    height: 70px;
+    color: crimson;
+    border: 10px solid rgba(107, 106, 106, 0.9);
+    border-radius: 100%;
+}
+
+
+/* ////////////////////// */
+
+
+/* //////////////////////arrivals styling///////////////////// */
+
+
+/* //////////////////////// */
+
+.arrivals {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.specials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* *********************************special block 1 styling*************************** */
+
+.specials_block_1 {
+    padding: 50px 50px;
+}
+
+.specials_block_1 .special_text {
+    color: crimson;
+    font-size: small;
+    font-weight: 500;
+    margin: 0;
+}
+
+.specials_block_1 h1 {
+    font-size: 22px;
+    color: rgb(51, 51, 51);
+    font-weight: 600;
+    margin: 5px;
+}
+
+.specials_block_1 p {
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+    margin: 0;
+}
+
+.specials_block_1 .special_cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px 0 0 0;
+}
+
+.special_cards .card_main {
+    width: 8rem;
+    margin: 5px;
+}
+
+.special_cards .card_main .card_image {
+    height: 12rem;
+    width: 8rem;
+    background-color: rgb(215, 215, 215);
+}
+
+.special_cards .card_main .card_description,
+.card_value {
+    font-size: 11px;
+    color: rgb(51, 51, 51);
+    font-weight: 500;
+    margin: 8px 0;
+}
+
+
+/* *********************specials block 2 styling***************************** */
+
+.specials_block_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 0 40px;
+    background-color: rgb(102, 101, 101);
+    text-align: start;
+    width: 22rem;
+}
+
+.specials_block_2 div {
+    margin: 0 0 50px 0;
+}
+
+.specials_block_2 h3 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.specials_block_2 p {
+    font-size: 10px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.specials_block_2 li {
+    font-size: 10px;
+}
+
+.specials_block_2 button {
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 5px;
+    width: 6rem;
+    margin-top: 30px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    margin: 10px 0;
+}
+
+.arrivals hr {
+    border: none;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    padding-top: 40px;
+    width: 63%;
+}
+
+
+/* ////////////////////////// */
+
+
+/* /////////////////////////new Arrivals section styling////////////////////////// */
+
+
+/* //////////////////////////// */
+
+.new_arrivals {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.new_arrivals h1 {
+    color: rgb(51, 51, 51);
+    margin: 5px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.new_arrivals ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+}
+
+.new_arrivals ul li a {
+    text-decoration: none;
+    padding-right: 30px;
+    color: rgb(173, 173, 173);
+    font-size: 12px;
+}
+
+
+/* **************************new arrivals card styling********************************* */
+
+.new_arrival_cards {
+    display: flex;
+    flex-direction: row;
+    padding: 30px 0 20px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 75%;
+}
+
+.new_arrival_cards .card_main {
+    margin: 8px 8px;
+}
+
+.new_arrival_cards .card_image {
+    background-color: rgb(215, 215, 215);
+    width: 12rem;
+    height: 17rem;
+}
+
+.new_arrival_cards .card_title {
+    padding-top: 10px;
+    font-size: 11px;
+    color: rgb(173, 173, 173);
+}
+
+.new_arrival_cards .card_description {
+    font-size: 12px;
+    color: rgb(102, 101, 101);
+    font-weight: 500;
+}
+
+.new_arrival_cards .card_value {
+    font-size: 11px;
+    color: rgb(102, 101, 101);
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.new_arrival_cards .card_optional {
+    font-size: 11px;
+    color: rgb(173, 173, 173);
+}
+
+.new_arrivals .load_more_btn button {
+    background: transparent;
+    border: 1px solid rgb(214, 213, 213);
+    border-radius: 25px;
+    padding: 5px;
+    width: 7.5rem;
+    color: crimson;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+
+/* /////////////////////////////// */
+
+
+/* ///////////////social section styling/////////////////////// */
+
+
+/* ////////////////////// */
+
+.social_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 60%;
+    align-items: center;
+    padding: 70px 0 0 0;
+}
+
+.social_section hr {
+    transform: rotate(90deg);
+    margin: 0%;
+    border: none;
+    border-bottom: 1px solid rgba(214, 213, 213, 0.5);
+    width: 150px;
+}
+
+
+/* **************************social icons styling******************** */
+
+.social_section .shop_social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+}
+
+.shop_social p {
+    color: rgb(173, 173, 173);
+    font-size: 12px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.shop_social div button {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.shop_social div .facebook_btn {
+    background-color: rgb(143, 121, 237);
+    color: white;
+}
+
+.shop_social div .twitter_btn {
+    background-color: white;
+    color: rgb(86, 145, 255);
+    border: 1px solid rgb(216, 215, 215);
+}
+
+.shop_social div .instagram_btn {
+    background-color: rgb(221, 109, 154);
+    color: white;
+}
+
+.shop_social div .youtube_btn {
+    background-color: rgb(230, 98, 98);
+    color: white;
+}
+
+.shop_social div .pinterest_btn {
+    background-color: rgb(230, 98, 98);
+    color: white;
+}
+
+
+/* ************************latest deals styling**************************** */
+
+.latest_deal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.latest_deal p {
+    text-align: center;
+    color: rgb(173, 173, 173);
+    font-size: 12px;
+    margin-top: 7px;
+}
+
+.latest_deal input[name="email"] {
+    background-color: transparent;
+    border: 1px solid rgb(216, 216, 216);
+    width: 15rem;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.latest_deal input[name="email"]::placeholder {
+    color: rgb(179, 177, 177);
+}
+
+
+/* ///////////////////////////// */
+
+
+/* ////////////////////////Suppport section styling ////////////////////////// */
+
+
+/* ///////////////////////////// */
+
+.support_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 246, 246);
+    padding: 50px 0;
+}
+
+.support_section .support_cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 75%;
+}
+
+.support_cards .support_cards_image {
+    width: 180px;
+    height: 180px;
+    background-color: rgb(102, 101, 101);
+    margin: 8px;
+}
+
+.support_card_image2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.support_card_image2 p,
+.support_card_image2 i {
+    padding: 0 5px;
+    font-size: 12px;
+}
+
+.support_card_image3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 180px;
+    height: 180px;
+    margin: 8px;
+    color: rgb(51, 51, 51);
+}
+
+.support_card_image3 i {
+    font-size: 20px;
+}
+
+.support_card_image3 p {
+    font-size: 12px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.support_card_image3 a {
+    font-size: 12px;
+    text-decoration: none;
+    color: crimson;
+    font-weight: 500;
+}
+
+
+/**************************support bottom section styling******************** */
+
+.support_section .support_bottom_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: rgb(51, 51, 51);
+    padding-top: 40px;
+}
+
+.support_bottom_section .payment_delivery,
+.quality_support,
+.return_refund {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.payment_delivery i,
+.quality_support i,
+.return_refund i {
+    margin-right: 40px;
+    font-weight: 400;
+}
+
+.payment_delivery div h3,
+.quality_support div h3,
+.return_refund div h3 {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.payment_delivery div p,
+.quality_support div p,
+.return_refund div p {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0;
+    color: rgb(173, 173, 173);
+}
+
+
+/* //////////////////////////// */
+
+
+/* ///////////////////////////About section styling///////////////////// */
+
+
+/* ///////////////////////////// */
+
+.about {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px 190px 0 190px;
+}
+
+
+/* *******************company discription styling****************** */
+
+.company_description img {
+    width: 80px;
+}
+
+.company_description p {
+    font-size: 12px;
+    color: rgb(173, 173, 173);
+}
+
+.about .contact {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact .contact_call p,
+.payment_method p {
+    color: rgb(51, 51, 51);
+    padding-top: 10px;
+    margin: 0 30px 0 0;
+}
+
+.contact .contact_call h6 {
+    font-size: 18px;
+    font-weight: normal;
+    color: rgb(115, 194, 105);
+    margin: 0;
+}
+
+.payment_method img {
+    width: 250px;
+    margin-top: 5px;
+}
+
+
+/* **********************information, my account, customer_services styling**************** */
+
+.information,
+.my_account,
+.customer_services {
+    padding: 5px;
+    width: 12rem;
+}
+
+.information h6,
+.customer_services h6,
+.my_account h6 {
+    margin: 0;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+.information li,
+.my_account li,
+.customer_services li {
+    list-style: none;
+}
+
+.information li a,
+.my_account li a,
+.customer_services li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(173, 173, 173);
+}
+
+
+/* ////////////////////////// */
+
+
+/* ////////////////////////////footer styling////////////////////////////// */
+
+
+/* ////////////////////////// */
+
+.footer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer hr {
+    border: none;
+    border-bottom: 1px solid rgb(236, 234, 234);
+    padding-top: 20px;
+    width: 72%;
+    margin: 0;
+}
+
+.footer_copyright_social_section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 72%;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.copyright p,
+.copyright p a,
+.footer_social_icons p {
+    font-size: 10px;
+    color: rgb(173, 173, 173);
+}
+
+.footer_social_icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer_social_icons a {
+    padding: 0 10px;
+    font-size: 10px;
+}
+
+.footer_social_icons .facebook {
+    color: rgb(143, 121, 237);
+}
+
+.footer_social_icons .twitter {
+    color: rgb(86, 145, 255);
+}
+
+.footer_social_icons .instagram {
+    color: rgb(221, 109, 154);
+}
+
+.footer_social_icons .youtube {
+    color: rgb(230, 98, 98);
+}
+
+.footer_social_icons .pinterest {
+    color: rgb(230, 98, 98);
+}
